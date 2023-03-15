@@ -14,6 +14,10 @@ A reaction responds to an occurance of an event by invoking a command.
 
 Use this pattern every time something needs to happen in reaction to something else that happened before.
 
+## Scenario
+
+This scenario covers sending a notification email in response to a `PurchaseOrderBooked` event (which is sent by the aggregate root quickstart);
+
 ## What you need to get started
 
 - The [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download) should be installed
